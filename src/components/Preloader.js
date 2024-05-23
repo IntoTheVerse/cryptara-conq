@@ -3,8 +3,8 @@ import skull from '../assets/logo.png';
 
 const Preloader = () => {
     return(
-        <div className='relative w-screen h-screen flex flex-col justify-center items-center'>
-            <div className='font-pixeled xs:text-2xl lg:text-6xl xl:text-7xl mobile-landscape:text-4xl text-white-lace absolute text-shadow-pixel-neon tracking-[8px] xs:top-[35vmax] lg:top-[30vmax] xl:top-[25vmin] mobile-landscape:top-[20vmin]' data-text='U'>
+        <div className='relative w-screen h-screen flex flex-col justify-center items-center cursor-sword'>
+            <div className='font-pixeled xs:text-2xl lg:text-6xl xl:text-7xl mobile-landscape:text-4xl text-white-lace text-center absolute text-shadow-pixel-neon tracking-[8px] xs:top-[35vmax] lg:top-[30vmax] xl:top-[25vmin] mobile-landscape:top-[20vmin]' data-text='U'>
                 Taking &nbsp;
                 <span className='animate-flicker-slow'>
                 you &nbsp;
