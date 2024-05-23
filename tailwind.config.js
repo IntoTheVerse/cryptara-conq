@@ -24,7 +24,7 @@ module.exports = {
     },
 
     cursor : {
-
+      'sword': `url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAI5JREFUOI2tU1sOgCAMa4n3vzJ+CKSDDjGxiSZsHeseAB61fdl5oLjAWldusy0XXZFjk8yXgGQFQPSfBpPdNHyqDhOPoYRuNMHDLgkAPD14le7Qe0LEpljZG7uVKklivY40j/EzfinhSKoGK7/AjOYEdg+ydRXZy8g1dXBO5aQ+fQtsO45ssTZr7uVuzgM3U4ZSBqfoAVcAAAAOZVhJZk1NACoAAAAIAAAAAAAAANJTkwAAAABJRU5ErkJggg==), pointer`
     },
 
     extend: {
@@ -45,6 +45,8 @@ module.exports = {
         'lava': "url('./assets/lava.png')",
         'blood': "url('./assets/blood.png')",
         'brick': "url('./assets/brick.png')",
+        'dungeonScene': "url('./assets/bg.png')",
+        
       },
 
       colors: {

@@ -23,3 +23,73 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+
+.drip1 {
+  width: 8px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: rgb(255, 0, 0);
+  top: 20px;
+  left: 25%;
+  animation: drip1 6s ease-in infinite;
+}
+
+.drip2 {
+  width: 8px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: rgb(255, 0, 0);
+  top: 20px;
+  left: 40%;
+  animation: drip2 7s ease-in infinite;
+}
+
+.drip3 {
+  width: 8px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: rgb(255, 0, 0);
+  top: 20px;
+  left: 75%;
+  animation: drip3 3s ease-in infinite;
+}
+
+.drip4 {
+  width: 8px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: rgb(255, 0, 0);
+  top: 20px;
+  left: 90%;
+  animation: drip4 4s ease-in infinite;
+}
+
+@keyframes drip1 {
+  70%, 100% {
+    transform: translateY(80vh);
+    opacity: 0;
+  }
+}
+
+@keyframes drip2 {
+  70%, 100% {
+    transform: translateY(80vh);
+    opacity: 0;
+  }
+}
+
+@keyframes drip3 {
+  60%, 100% {
+    transform: translateY(80vh);
+    opacity: 0;
+  }
+}
+
+@keyframes drip4 {
+  50%, 100% {
+    transform: translateY(80vh);
+    opacity: 0;
+  }
+}
