@@ -21,7 +21,7 @@ export default function Carousel({
     return (
         <div className="overflow-hidden relative">
             <div className="flex transition-transform ease-out duration-500 bottom-0" style={{transform: `translateX(-${curr*100}%)` }}>{slides}</div>
-            <div className='absolute flex inset-0 items-center justify-between p-2'>
+            <div className='absolute flex inset-x-0 bottom-0 items-center justify-between p-2'>
                 <button onClick={prev} className='lrbutton'>
                     <img src={LArrow} className='p-1 rounded-full shadow bg-white hover:bg-white-20'/>
                 </button>
@@ -29,7 +29,7 @@ export default function Carousel({
                     <img src={RArrow} className='p-1 rounded-full shadow bg-white hover:bg-white-20'/>
                 </button>
             </div>
-            <div className='absolute bottom-4 right-0 left-0'>
+            <div className='absolute justify-center items-center bottom-4 right-0 left-0'>
                 <div className='flex items-center justify-center gap-2'>
                    {slides.map((_, i) => (
                     <div className={`transition-all w-3 h-3 bg-white rounded-full
