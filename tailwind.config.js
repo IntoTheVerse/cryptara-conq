@@ -46,7 +46,7 @@ module.exports = {
         'blood': "url('./assets/blood.png')",
         'brick': "url('./assets/brick.png')",
         'dungeonScene': "url('./assets/bg.png')",
-        
+        'shrine': "url('./assets/shrine.png')",
       },
 
       colors: {
