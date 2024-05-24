@@ -14,7 +14,7 @@ const Preloader = () => {
                 Cryptara &nbsp;
                 </span>
             </div>
-            <div className='bg-brick bg-cover justify-start rounded-full items-center relative flex xs:top-[5vmax] xl:top-[12vmin] mobile-landscape:top-[18vmin] px-[5px] xs:h-[4vmax] xl:h-[3.75vmax] xs:w-[30vmax] xl:w-[29vmax] mobile-landscape:w-[40vmax]'>
+            <div className='bg-blood bg-cover justify-start rounded-full items-center relative flex xs:top-[5vmax] xl:top-[12vmin] mobile-landscape:top-[18vmin] px-[5px] xs:h-[4vmax] xl:h-[3.75vmax] xs:w-[30vmax] xl:w-[29vmax] mobile-landscape:w-[40vmax]'>
                 <div className='animate-progress-bar box-shadow-blue bg-lava bg-cover rounded-full h-[2.9vmax] w-[29vmax]'>
                     <img className='xs:animate-running-hustler-xs xl:animate-running-hustler-xl lg:animate-running-hustler-lg mobile-landscape:animate-running-hustler-mobile-landscape xs:h-[5vmax] xl:h-[2.9vmax]' src={skull} alt='Hoof Hustler' />
                 </div>
