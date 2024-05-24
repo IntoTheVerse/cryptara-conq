@@ -50,12 +50,12 @@ const Landing = () => {
                 <div className='flex w-[50vw] h-[50vh] absolute flex-col justify-center items-center bg-transparent z-2 top-0 left-0'>
                     <div className='flex flex-col space-y-2 m-auto text-white-lace w-3/4 h-full z-2 justify-center items-center align-middle'>
                         <div className='bg-logo bg-contain bg-no-repeat p-3 h-1/4 w-full z-2 mt-60'></div>
-                        <div className='font-pixeled mt-0 text-white-lace w-full z-2 rounded-full'><p><span className='inline-flex items-baseline'>Epic 2D survival RPG coming soon on Eclipse! &nbsp;<img className='bg-slate-950 rounded-full w-10 h-10 self-center' src={Eclipse}/></span></p></div>
+                        <div className='font-pixeled mt-0 text-white-lace w-full z-2 rounded-full'><p><span className='inline-block align-middle'>Epic 2D survival RPG coming soon on Eclipse! &nbsp;<img className='bg-slate-950 rounded-full w-10 h-10 self-center inline-block align-middle' src={Eclipse}/></span></p></div>
                     </div>
                 </div>
                 <div className='flex w-[50vw] h-[100vh] absolute flex-col justify-center items-center z-2 top-0 right-0'>
                     <div className='flex flex-col justify-center items-center space-y-4 mt-[20vh] text-white-lace bg-zinc-900/75 rounded-lg w-1/2 h-1/2 z-2 justify-center items-center align-middle'>
-                        <div className='font-pixeled text-xs mt-2 text-white-lace w-3/4 z-2'><p><span className='inline-flex items-baseline'>Built by IntoTheVerse Inc. &nbsp;<img className='w-10 h-10 self-center' src={ITV}/></span></p></div>
+                        <div className='font-pixeled text-xs mt-2 text-white-lace w-3/4 z-2'><p><span className='inline-block align-middle'>Built by IntoTheVerse Inc. &nbsp;<img className='w-10 h-10 self-center inline-block align-middle' src={ITV}/></span></p></div>
                         <a className='bg-twitter bg-contain bg-no-repeat p-3 z-2 h-1/4 w-1/2' href="https://x.com/CryptaraConq"><div></div></a>
                         <a className='bg-telegram bg-contain bg-no-repeat p-3 z-2 h-1/4 w-1/2' href="https://t.me/IntoTheVerse"><div></div></a>
                         <a className='bg-discord bg-contain bg-no-repeat p-3 z-2 h-1/4 w-1/2' href="https://discord.gg/w94EVQRPRf"><div></div></a>
