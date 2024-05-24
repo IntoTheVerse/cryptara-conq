@@ -24,6 +24,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.lrbutton {
+  height: 40px;
+  width: 40px;
+}
+
 
 
 .drip1 {
