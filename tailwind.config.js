@@ -48,6 +48,10 @@ module.exports = {
         'dungeonScene': "url('./assets/bg.png')",
         'shrine': "url('./assets/shrine.png')",
         'logo': "url('./assets/game-logo.png')",
+        'twitter': "url('./assets/twitter.png')",
+        'telegram': "url('./assets/telegram.png')",
+        'discord': "url('./assets/discord.png')",
+        'rarible': "url('./assets/rarible.png')",
       },
 
       colors: {
