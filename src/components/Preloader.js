@@ -12,10 +12,6 @@ const Preloader = () => {
                 to &nbsp;
                 <span className='animate-flicker-fast'>
                 Cryptara &nbsp;
-                {/* </span>
-                NG
-                <span className='animate-flicker-slow'>
-                ... */}
                 </span>
             </div>
             <div className='bg-brick bg-cover justify-start rounded-full items-center relative flex xs:top-[5vmax] xl:top-[12vmin] mobile-landscape:top-[18vmin] px-[5px] xs:h-[4vmax] xl:h-[3.75vmax] xs:w-[30vmax] xl:w-[29vmax] mobile-landscape:w-[40vmax]'>
