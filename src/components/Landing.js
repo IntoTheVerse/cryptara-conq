@@ -50,7 +50,7 @@ const Landing = () => {
                     </div>
                 </div>
                 <div className='lg:flex lg:w-[50vw] xs:w-screen h-screen absolute flex-col justify-center items-center z-2 top-0 lg:right-0'>
-                    <div className='flex flex-col justify-center items-center lg:space-y-4 xs:space-y-2 lg:mt-[20vh] xs:mt-[12vh] text-white-lace xs:border-amber-400 xs:border-4 lg:border-none bg-zinc-900/75 rounded-lg lg:w-1/2 lg:h-1/2 xs:w-3/4 xs:h-1/2 xs:mx-auto z-2 justify-center items-center align-middle'>
+                    <div className='flex flex-col justify-center items-center lg:space-y-4 xs:space-y-2 lg:mt-[20vh] xs:mt-[20vh] text-white-lace xs:border-amber-400 xs:border-4 lg:border-none bg-zinc-900/75 rounded-lg lg:w-1/2 lg:h-1/2 xs:w-3/4 xs:h-1/2 xs:mx-auto z-2 justify-center items-center align-middle'>
                         <div className='lg:hidden xl:hidden flex flex-col space-y-2 mx-[0.6rem] mt-1 text-white-lace w-3/4 h-3/4 z-2 justify-center items-center'>
                             <div className='bg-logo bg-contain bg-center bg-no-repeat h-3/4 w-full z-2 mt-1 mx-auto items-center px-auto align-middle'></div>
                             <div className='font-pixeled mt-0 text-white-lace text-center text-[0.6rem] w-full mx-1 z-2 rounded-full'><p><span className='inline-block align-middle'>An epic 2D survival RPG coming soon on Eclipse! &nbsp;<img className='bg-slate-950 rounded-full w-5 h-5 self-center inline-block align-middle' src={Eclipse}/></span></p></div>
@@ -64,7 +64,7 @@ const Landing = () => {
                     <a href="https://rarible.com/" className='bg-rarible bg-contain bg-no-repeat p-3 z-2 h-1/4 w-3/4'><div></div></a>
                 </div>
                 {/* </div> */}
-                <div className='lg:hidden xl:hidden mx-[25vw] shrine flex-1 absolute bottom-0 inset-x-0 h-64 w-screen item-center justify-center items-center w-full z-2'>
+                {/* <div className='lg:hidden xl:hidden mx-[25vw] size-full shrine flex-1 absolute bottom-0 inset-x-0 h-64 w-screen item-center justify-center items-center w-full z-2'>
                     <div className='flex flex-row justify-center items-center bg-shrine bg-contain bg-no-repeat h-3/4 w-1/2 bottom-0 relative z-2'>
                         <div className='max-w-lg flex flex-row justify-center items-center object-contain z-2 size-full h-full w-1/2 px-6'>
                             <Carousel className="z-2 h-3/4" autoSlide={true}>
@@ -74,7 +74,7 @@ const Landing = () => {
                             </Carousel>
                         </div>  
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </div>
