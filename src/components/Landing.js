@@ -57,8 +57,8 @@ const Landing = () => {
                         </div>
                         <div className='font-pixeled lg:text-xs xs:text-[0.4rem] xs:text-center lg:mt-2 xs:mt-1 xs:mb-1 text-white-lace lg:w-3/4 xs:w-3/4 xs:h-1/4 z-2 xs:mx-auto'><p><span className='inline-block align-middle'>Built by IntoTheVerse Inc. &nbsp;<img className='xs:w-5 xs:h-5 lg:w-10 lg:h-10 self-center inline-block align-middle' src={ITV}/></span></p></div>
                             <a className='bg-twitter bg-contain bg-no-repeat p-3 z-2 lg:h-1/4 lg:w-1/2 xs:w-48 xs:h-24 xs:ml-[15px] xs:align-middle xs:flex xs:items-center xs:justify-center' href="https://x.com/CryptaraConq"><div></div></a>
-                            <a className='bg-whitepaper bg-contain bg-no-repeat p-3 z-2 lg:h-1/4 lg:w-1/2 xs:w-48 xs:h-24 xs:ml-[15px] xs:align-middle xs:flex xs:items-center xs:justify-center' href="https://t.me/IntoTheVerse"><div></div></a>
                             <a className='bg-discord bg-contain bg-no-repeat p-3 z-2 lg:h-1/4 lg:w-1/2 xs:w-48 xs:h-24 xs:ml-[15px] xs:align-middle xs:flex xs:items-center xs:justify-center' href="https://discord.gg/w94EVQRPRf"><div></div></a>
+                            <a className='bg-whitepaper bg-contain bg-no-repeat p-3 z-2 lg:h-1/4 lg:w-1/2 xs:w-48 xs:h-24 xs:ml-[15px] xs:align-middle xs:flex xs:items-center xs:justify-center' href="https://wiki.cryptara.world/"><div></div></a>
                             <a href="https://rarible.com/" className='lg:hidden xl:hidden xs:bg-rarible xs:bg-contain xs:bg-no-repeat xs:p-3 xs:z-2 xs:h-1/4 xs:w-3/4'><div></div></a>
                         </div>
                     <a href="https://rarible.com/" className='bg-rarible bg-contain bg-no-repeat p-3 z-2 h-1/4 w-3/4'><div></div></a>
