@@ -64,7 +64,7 @@ const Landing = () => {
                     <a href="https://rarible.com/" className='bg-rarible bg-contain bg-no-repeat p-3 z-2 h-1/4 w-3/4'><div></div></a>
                 </div>
                 {/* </div> */}
-                <div className='lg:hidden xl:hidden mx-[20vw] shrine flex-1 absolute bottom-0 inset-x-0 h-64 w-screen item-center justify-center items-center w-full z-2'>
+                <div className='lg:hidden xl:hidden mx-[25vw] shrine flex-1 absolute bottom-0 inset-x-0 h-64 w-screen item-center justify-center items-center w-full z-2'>
                     <div className='flex flex-row justify-center items-center bg-shrine bg-contain bg-no-repeat h-3/4 w-1/2 bottom-0 relative z-2'>
                         <div className='max-w-lg flex flex-row justify-center items-center object-contain z-2 size-full h-full w-1/2 px-6'>
                             <Carousel className="z-2 h-3/4" autoSlide={true}>
