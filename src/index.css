@@ -72,14 +72,14 @@ body {
 }
 
 @keyframes drip1 {
-  70%, 100% {
+  40%, 100% {
     transform: translateY(80vh);
     opacity: 0;
   }
 }
 
 @keyframes drip2 {
-  70%, 100% {
+  30%, 100% {
     transform: translateY(80vh);
     opacity: 0;
   }

@@ -50,8 +50,10 @@ module.exports = {
         'logo': "url('./assets/game-logo.png')",
         'twitter': "url('./assets/twitter.png')",
         'telegram': "url('./assets/telegram.png')",
+        'whitepaper': "url('./assets/whitepaper.png')",
         'discord': "url('./assets/discord.png')",
         'rarible': "url('./assets/rarible.png')",
+        'mobile': "url('./assets/mobile.png')"
       },
 
       colors: {
