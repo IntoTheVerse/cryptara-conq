@@ -23,10 +23,10 @@ export default function Carousel({
             <div className="flex transition-transform ease-out duration-500 bottom-0" style={{transform: `translateX(-${curr*100}%)` }}>{slides}</div>
             <div className='xs:hidden sm:hidden md:hidden absolute lg:flex inset-x-0 bottom-0 items-center justify-between p-2'>
                 <button onClick={prev} className='lrbutton'>
-                    <img src={LArrow} className='p-1 rounded-full shadow bg-white hover:bg-white-20'/>
+                    <img src={LArrow} className='p-1 rounded-full shadow bg-white hover:bg-white-20' alt=""/>
                 </button>
                 <button onClick={next} className='lrbutton'>
-                    <img src={RArrow} className='p-1 rounded-full shadow bg-white hover:bg-white-20'/>
+                    <img src={RArrow} className='p-1 rounded-full shadow bg-white hover:bg-white-20' alt=""/>
                 </button>
             </div>
             <div className='absolute justify-center items-center bottom-0 right-0 left-0'>
