@@ -61,7 +61,7 @@ const Landing = () => {
                             <a className='bg-whitepaper bg-contain bg-no-repeat bg-center p-3 z-2 lg:h-1/4 lg:w-1/2 xs:w-full xs:h-[5vh] xs:m-auto xs:align-middle xs:flex xs:items-center xs:justify-center xs:item-center' href="https://wiki.cryptara.world/" rel="noreferrer"><div></div></a>
                             <a className='lg:hidden xl:hidden xs:bg-rarible xs:bg-contain bg-center xs:bg-no-repeat xs:p-3 xs:z-2 xs:h-[15vh] xs:w-full' href="https://rarible.com/" target="_blank" rel="noreferrer"><div></div></a>
                         </div>
-                    <a className='bg-rarible bg-contain bg-center bg-no-repeat p-3 z-2 h-1/4 w-3/4' href="https://rarible.com/" target="_blank" rel="noreferrer"><div></div></a>
+                    <a className='bg-rarible bg-contain bg-center bg-no-repeat p-3 z-2 h-1/4 w-3/4' href="https://rarible.com/collection/0x6f20bE53858C299F2e43E0DCB8aDd9deD169360A/drops" target="_blank" rel="noreferrer"><div></div></a>
                 </div>
                 {/* </div> */}
                 {/* <div className='lg:hidden xl:hidden mx-[25vw] size-full shrine flex-1 absolute bottom-0 inset-x-0 h-64 w-screen item-center justify-center items-center w-full z-2'>
