@@ -58,24 +58,11 @@ const Landing = () => {
                         <div className='font-pixeled lg:text-xs xs:text-[0.4rem] xs:text-center lg:mt-2 xs:mt-1 xs:mb-1 text-white-lace lg:w-3/4 xs:w-3/4 xs:h-1/4 z-2 xs:mx-auto'><p><span className='inline-block align-middle'>Built by IntoTheVerse Inc. &nbsp;<img className='xs:w-5 xs:h-5 lg:w-10 lg:h-10 self-center inline-block align-middle' src={ITV} alt="IntoTheVerse"/></span></p></div>
                             <a className='bg-twitter bg-contain bg-no-repeat bg-center p-3 z-2 lg:h-1/4 lg:w-1/2 xs:w-full xs:h-[5vh] xs:m-auto xs:align-middle xs:flex xs:items-center xs:justify-center xs:item-center' href="https://x.com/CryptaraConq" target="_blank" rel="noreferrer"><div></div></a>
                             <a className='bg-discord bg-contain bg-no-repeat bg-center p-3 z-2 lg:h-1/4 lg:w-1/2 xs:w-full xs:h-[5vh] xs:m-auto xs:align-middle xs:flex xs:items-center xs:justify-center xs:item-center' href="https://discord.gg/w94EVQRPRf" rel="noreferrer"><div></div></a>
-                            <a className='bg-whitepaper bg-contain bg-no-repeat bg-center p-3 z-2 lg:h-1/4 lg:w-1/2 xs:w-full xs:h-[5vh] xs:m-auto xs:align-middle xs:flex xs:items-center xs:justify-center xs:item-center' href="https://wiki.cryptara.world/" rel="noreferrer"><div></div></a>
+                            <a className='bg-whitepaper bg-contain bg-no-repeat bg-center p-3 z-2 lg:h-1/4 lg:w-1/2 xs:w-full xs:h-[5vh] xs:m-auto xs:align-middle xs:flex xs:items-center xs:justify-center xs:item-center' href="/CryptaraScroll.pdf"><div></div></a>
                             <a className='lg:hidden xl:hidden xs:bg-rarible xs:bg-contain bg-center xs:bg-no-repeat xs:p-3 xs:z-2 xs:h-[15vh] xs:w-full' href="https://rarible.com/" target="_blank" rel="noreferrer"><div></div></a>
                         </div>
                     <a className='bg-rarible bg-contain bg-center bg-no-repeat p-3 z-2 h-1/4 w-3/4' href="https://rarible.com/collection/0x6f20bE53858C299F2e43E0DCB8aDd9deD169360A/drops" target="_blank" rel="noreferrer"><div></div></a>
                 </div>
-                {/* </div> */}
-                {/* <div className='lg:hidden xl:hidden mx-[25vw] size-full shrine flex-1 absolute bottom-0 inset-x-0 h-64 w-screen item-center justify-center items-center w-full z-2'>
-                    <div className='flex flex-row justify-center items-center bg-shrine bg-contain bg-no-repeat h-3/4 w-1/2 bottom-0 relative z-2'>
-                        <div className='max-w-lg flex flex-row justify-center items-center object-contain z-2 size-full h-full w-1/2 px-6'>
-                            <Carousel className="z-2 h-3/4" autoSlide={true}>
-                                {slides.map((s) => (
-                                    <img src={s} />
-                                ))}
-                            </Carousel>
-                        </div>  
-                    </div>
-                </div> */}
-
             </div>
         </div>
     );
